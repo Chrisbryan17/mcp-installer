@@ -1,6 +1,9 @@
 name: UGMC Package PyBullet Local Runtime
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
